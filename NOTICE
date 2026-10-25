@@ -1,0 +1,14 @@
+Task or Trajectory? — reproduction code
+Copyright 2026 The authors of 'Task or Trajectory?'
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The figures in figures/ (SVG, PNG), figures/fig5_data.json and expected/slice_check_output.txt are licensed under
+CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+Third-party material and dependencies:
+- Task instances used by the scripts come from SWE-rebench-V2 (I. Badertdinov et al., arXiv:2602.23866;
+  https://huggingface.co/datasets/nebius/SWE-rebench-V2), licensed CC-BY-4.0. No dataset content is included here.
+- The instrument scripts (pl_r3.py and the scripts that import it) need, at run time, the Kaggle "Gemma 4 Developer
+  Agent" evaluation harness package, vLLM and open-weight models. None of these is included.
+- No competition data, prompts, logs or traces are included in this repository.

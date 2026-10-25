@@ -1,0 +1,154 @@
+E1 Gemma-31B boundary pairs                empty     6: Q_c 0.31 (n=36)
+E1 Gemma-31B boundary pairs                empty   own: Q_c 0.43 (n=30)
+E1 Gemma-31B boundary pairs                res       6: Q_c 0.17 (n=90)
+E1 Gemma-31B boundary pairs                res     own: Q_c 0.57 (n=99)
+E1 Gemma-31B boundary pairs                wrongG    6: Q_c 0.19 (n=48)
+E1 Gemma-31B boundary pairs                wrongG  own: Q_c 0.15 (n=48)
+E1 Gemma-31B boundary pairs                wrongL    6: Q_c 0.17 (n=6)
+E1 Gemma-31B boundary pairs                wrongL  own: Q_c 0.00 (n=3)
+E1 ablation: no injected instruction       empty   own: Q_c 0.30 (n=56)
+E1 ablation: no injected instruction       res     own: Q_c 0.55 (n=138)
+E1 ablation: no injected instruction       wrongG  own: Q_c 0.08 (n=62)
+E1 ablation: no injected instruction       wrongL  own: Q_c 0.00 (n=3)
+E3 failed boundary runs at T = 1.0         empty   own: Q_c 0.35 (n=77)
+E3 failed boundary runs at T = 1.0         wrongG  own: Q_c 0.16 (n=101)
+R3b Gemma-12B commits from 31B contexts    empty   own: Q_c 0.00 (n=36)
+R3b Gemma-12B commits from 31B contexts    res     own: Q_c 0.51 (n=51)
+R3b Gemma-12B commits from 31B contexts    wrongG  own: Q_c 0.02 (n=54)
+R3f Gemma-31B prefill                      empty     6: Q_c 0.02 (n=57)
+R3f Gemma-31B prefill                      empty   own: Q_c 0.06 (n=33)
+R3f Gemma-31B prefill                      res       6: Q_c 0.40 (n=42)
+R3f Gemma-31B prefill                      res     own: Q_c 0.67 (n=51)
+R3f Gemma-31B prefill                      wrongG    6: Q_c 0.00 (n=54)
+R3f Gemma-31B prefill                      wrongG  own: Q_c 0.00 (n=54)
+R3g Gemma-31B prefill                      empty     6: Q_c 0.04 (n=90)
+R3g Gemma-31B prefill                      empty   own: Q_c 0.14 (n=78)
+R3g Gemma-31B prefill                      res       6: Q_c 0.57 (n=81)
+R3g Gemma-31B prefill                      res     own: Q_c 0.81 (n=75)
+R3g Gemma-31B prefill                      wrongG    6: Q_c 0.00 (n=81)
+R3g Gemma-31B prefill                      wrongG  own: Q_c 0.00 (n=87)
+R6 Qwen3.6-27B prefill                     empty     6: Q_c 0.03 (n=30)
+R6 Qwen3.6-27B prefill                     empty   own: Q_c 0.44 (n=9)
+R6 Qwen3.6-27B prefill                     res       6: Q_c 0.42 (n=24)
+R6 Qwen3.6-27B prefill                     res     own: Q_c 0.92 (n=36)
+R6 Qwen3.6-27B prefill                     wrongG    6: Q_c 0.00 (n=45)
+R6 Qwen3.6-27B prefill                     wrongG  own: Q_c 0.00 (n=36)
+R8 Gemma-31B commits from Qwen contexts    empty   own: Q_c 0.67 (n=9)
+R8 Gemma-31B commits from Qwen contexts    res     own: Q_c 0.72 (n=36)
+R8 Gemma-31B commits from Qwen contexts    wrongG  own: Q_c 0.00 (n=36)
+R8 Qwen commits from Gemma-31B contexts    empty   own: Q_c 0.14 (n=77)
+R8 Qwen commits from Gemma-31B contexts    res     own: Q_c 0.89 (n=75)
+R8 Qwen commits from Gemma-31B contexts    wrongG  own: Q_c 0.00 (n=87)
+DeepSeek-V4-Pro dev  successes green at first edit 24/35; failed runs ever green 0/33
+Gemma-31B dev        successes green at first edit 26/43; failed runs ever green 2/76
+Gemma-31B train      successes green at first edit 76/113; failed runs ever green 1/179
+Qwen3.6-27B dev      successes green at first edit 15/17; failed runs ever green 0/16
+Table 1 DeepSeek-V4-Pro dev  runs 90, resolved 35 (39%)
+Table 1 Gemma-31B dev        runs 180, resolved 52 (29%)
+Table 1 Gemma-31B train      runs 387, resolved 138 (36%)
+Table 1 Qwen3.6-27B dev      runs 47, resolved 17 (36%)
+distinct intermediate trees: 1216 over all replayed runs; 957 over replay-reproducible runs
+post-green share DeepSeek-V4-Pro dev  median 0.42 (n=35)
+post-green share Gemma-31B dev        median 0.48 (n=43)
+post-green share Gemma-31B train      median 0.40 (n=112)
+post-green share Qwen3.6-27B dev      median 0.45 (n=17)
+Table 4 Gemma explorer res     own point: n=25 runs  own 0.81  swap 0.89  diff +0.08 [+0.01, +0.17]
+Table 4 Gemma explorer wrongG  own point: n=29 runs  own 0.00  swap 0.00  diff +0.00 [+0.00, +0.00]
+Table 4 Gemma explorer empty   own point: n=26 runs  own 0.14  swap 0.14  diff +0.00 [-0.08, +0.08]
+Table 4 Qwen explorer res     own point: n=12 runs  own 0.92  swap 0.72  diff -0.19 [-0.39, +0.03]
+Table 4 Qwen explorer wrongG  own point: n=12 runs  own 0.00  swap 0.00  diff +0.00 [+0.00, +0.00]
+Table 4 Qwen explorer empty   own point: n=3 runs  own 0.44  swap 0.67  diff +0.22 [+0.00, +0.67]
+run-level E1 Gemma-31B boundary pairs              empty   own point 5/10 (95% upper 0.813); any fork 8/12 (upper 0.901)
+run-level E1 Gemma-31B boundary pairs              wrongG  own point 3/16 (95% upper 0.456); any fork 6/18 (upper 0.590)
+run-level E1 Gemma-31B boundary pairs              wrongL  own point 0/1 (95% upper 0.975); any fork 2/2 (upper 1.000)
+run-level E1 ablation: no injected instruction     empty   own point 8/20 (95% upper 0.639); any fork 8/20 (upper 0.639)
+run-level E1 ablation: no injected instruction     wrongG  own point 2/21 (95% upper 0.304); any fork 2/21 (upper 0.304)
+run-level E1 ablation: no injected instruction     wrongL  own point 0/1 (95% upper 0.975); any fork 0/1 (upper 0.975)
+run-level E3 failed boundary runs at T = 1.0       empty   own point 5/13 (95% upper 0.684); any fork 10/16 (upper 0.848)
+run-level E3 failed boundary runs at T = 1.0       wrongG  own point 4/17 (95% upper 0.499); any fork 6/18 (upper 0.590)
+run-level E3 failed boundary runs at T = 1.0       wrongL  own point 0/0 (95% upper 1.000); any fork 0/1 (upper 0.975)
+run-level R3b Gemma-12B commits from 31B contexts  empty   own point 0/12 (95% upper 0.265); any fork 0/20 (upper 0.168)
+run-level R3b Gemma-12B commits from 31B contexts  wrongG  own point 1/18 (95% upper 0.273); any fork 2/20 (upper 0.317)
+run-level R3f Gemma-31B prefill                    empty   own point 1/11 (95% upper 0.413); any fork 2/20 (upper 0.317)
+run-level R3f Gemma-31B prefill                    wrongG  own point 0/18 (95% upper 0.185); any fork 1/20 (upper 0.249)
+run-level R3g Gemma-31B prefill                    empty   own point 5/26 (95% upper 0.394); any fork 8/30 (upper 0.459)
+run-level R3g Gemma-31B prefill                    wrongG  own point 0/29 (95% upper 0.119); any fork 0/30 (upper 0.116)
+run-level R6 Qwen3.6-27B prefill                   empty   own point 2/3 (95% upper 0.992); any fork 2/10 (upper 0.556)
+run-level R6 Qwen3.6-27B prefill                   wrongG  own point 0/12 (95% upper 0.265); any fork 0/15 (upper 0.218)
+run-level R8 Gemma-31B commits from Qwen contexts  empty   own point 2/3 (95% upper 0.992); any fork 2/10 (upper 0.556)
+run-level R8 Gemma-31B commits from Qwen contexts  wrongG  own point 0/12 (95% upper 0.265); any fork 0/15 (upper 0.218)
+run-level R8 Qwen commits from Gemma-31B contexts  empty   own point 4/26 (95% upper 0.349); any fork 7/30 (upper 0.423)
+run-level R8 Qwen commits from Gemma-31B contexts  wrongG  own point 0/29 (95% upper 0.119); any fork 1/29 (upper 0.178)
+Table 2 dev  : between-task share 79%; boundary tasks 21 of 90; pass@1 0.31 -> pass@8 0.43
+Table 2 train: between-task share 83%; boundary tasks 28 of 193; pass@1 0.35 -> pass@4 0.42
+Table 4 fork   6 (41 tasks): resolved 0.23  failed 0.20  diff +0.03 [-0.07, +0.14]
+Table 4 fork  10 (32 tasks): resolved 0.33  failed 0.26  diff +0.07 [-0.11, +0.27]
+Table 4 fork  14 (23 tasks): resolved 0.33  failed 0.23  diff +0.10 [-0.10, +0.32]
+Table 4 fork own (40 tasks): resolved 0.72  failed 0.25  diff +0.47 [+0.28, +0.64]
+E1 ablation: no injected instruction: 259 episodes, pass rate 0.38
+E3 failed boundary runs at T = 1.0: 346 episodes, pass rate 0.25
+
+== v0.7 additions ==
+prefill (forced-commit) episodes: 3925, graded 3925
+Table 1 caption: 47 dev tasks run by all three: Gemma-31B 33/94, Qwen3.6-27B 17/47, DeepSeek-V4-Pro 18/47
+shell-edit exclusion: 153 of 704 runs; DeepSeek-V4-Pro empty 11/13; DeepSeek-V4-Pro res 0/35; Gemma-31B empty 19/27; Gemma-31B res 9/52; Gemma-31B empty 20/42; Gemma-31B res 25/138; Qwen3.6-27B empty 3/10; Qwen3.6-27B res 0/17
+mixed tasks: 19 with the first two seeds, 49 with all seeds
+post-green DeepSeek-V4-Pro dev  runs testing after green 91% (n=35); calls: read-search 38%, test 34%, exec 13%, submit 13%, edit 2%, other 0%
+post-green Gemma-31B dev        runs testing after green 60% (n=43); calls: read-search 46%, test 15%, exec 19%, submit 11%, edit 9%, other 1%
+post-green Gemma-31B train      runs testing after green 67% (n=112); calls: read-search 41%, test 20%, exec 18%, submit 15%, edit 4%, other 1%
+post-green Qwen3.6-27B dev      runs testing after green 88% (n=17); calls: read-search 24%, test 33%, exec 26%, submit 15%, edit 2%, other 0%
+Table 5 ('boundary', 'empty'): Q_c 0.38 (20 runs)
+Table 5 ('boundary', 'wrong'): Q_c 0.11 (22 runs)
+Table 5 ('unsolved', 'empty'): Q_c 0.04 (27 runs)
+Table 5 ('unsolved', 'empty', 'any'): 4 of 38 runs pass a forced commit at any fork
+Table 5 ('unsolved', 'wrong'): Q_c 0.00 (42 runs)
+Table 5 ('unsolved', 'wrong', 'any'): 0 of 45 runs pass a forced commit at any fork
+Qwen from Gemma's wrong-patch contexts on unsolved tasks, own point: 0/78; Qwen's own wrong-patch contexts, all forks: 0/138
+no-instruction ablation: -0.076 [-0.129, -0.027] over 88 runs / 49 tasks
+timing: failed run at its last fork before the resolved commit call 0.22 (n=39); at its own commit point 0.25 (n=40)
+estimands (40 tasks, never-edited failed runs excluded): D (p(1-p)-weighted) 0.444; Cauchy-Schwarz bound D^2/R 0.216, bias-corrected 0.206, one-sided 95 % limit 0.089
+calibration (first draw = first in slice (completion) order): first fail -> forced 0.11 natural 0.29; first pass -> forced 0.96 natural 0.82
+calibration (first draw = seeded sample 0): first fail -> forced 0.10 natural 0.32; first pass -> forced 0.96 natural 0.78
+calibration (seeded sample 0), 95 % CI over tasks: forced|first fail 0.10 [0.04, 0.19]; natural|first fail 0.32 [0.20, 0.43]; forced|first pass 0.96 [0.90, 1.00]; natural|first pass 0.78 [0.65, 0.90]
+average calibration (40 tasks): implied forced value 0.461 vs natural solve rate 0.490
+call 6 TOST: diff +0.033, 90 % CI [-0.049, +0.114] over 41 tasks (equivalent within ±0.15: True)
+call 6 -> own commit point, both runs: +0.30 [+0.19, +0.41] over 81 runs / 47 tasks
+
+== v0.8 additions ==
+own-point cells with K = 3: 451; all three forced draws agree in 90.0%
+not reproduced, empty: 53 runs; use edit_file/write_file 53; all edits refused by the spent 28-call budget: 44; hold a passing replayed tree: 6 {'Gemma-31B train': 3, 'Qwen3.6-27B dev': 1, 'Gemma-31B dev': 1, 'DeepSeek-V4-Pro dev': 1}
+not reproduced, wrong: 66 runs; use edit_file/write_file 62; all edits refused by the spent 28-call budget: 7; hold a passing replayed tree: 0
+not reproduced, res  : 34 runs; use edit_file/write_file 34; all edits refused by the spent 28-call budget: 0; hold a passing replayed tree: 28
+empty-final runs holding a passing replayed tree whose edits were all refused by the spent budget: 6 of 6
+call 6 -> own, both runs     @6: applies 0.57, pass|applies 0.37, Q_c 0.21 | @own: applies 0.90, pass|applies 0.57, Q_c 0.51
+call 6 -> own, resolved runs @6: applies 0.62, pass|applies 0.40, Q_c 0.25 | @own: applies 0.96, pass|applies 0.78, Q_c 0.75
+call 6 -> own, failed runs   @6: applies 0.51, pass|applies 0.33, Q_c 0.17 | @own: applies 0.83, pass|applies 0.31, Q_c 0.26
+swap cell R3g Gemma-31B prefill                      resolved contexts: empty patch 0.04, pass|patch 0.85 (75 episodes)
+swap cell R8 Qwen commits from Gemma-31B contexts    resolved contexts: empty patch 0.05, pass|patch 0.94 (75 episodes)
+swap cell R6 Qwen3.6-27B prefill                     resolved contexts: empty patch 0.00, pass|patch 0.92 (36 episodes)
+swap cell R8 Gemma-31B commits from Qwen contexts    resolved contexts: empty patch 0.19, pass|patch 0.90 (36 episodes)
+run level: Qwen from Gemma's wrong-patch contexts, never-solved tasks, own point: 0/26 runs pass (95 % upper 0.13)
+run level: Qwen's own wrong-patch contexts, any fork: 0/15 runs pass (95 % upper 0.22)
+run level: Gemma wrong-patch contexts, never-solved tasks, any fork (R3f/R3g): 0/45 runs pass (95 % upper 0.08)
+run level: boundary empty failed pair runs with >= 1 passing own-point commit: 9/20
+T = 1.0 minus T = 0.2 at the own point (failed boundary runs): +0.006 [-0.039, +0.044] over 30 runs
+pair runs: failed never edited 5; failed with an own point but no own-point episodes 2
+D (p(1-p)-weighted): never-edited failed runs as q = 0: 0.462 (45 tasks); unweighted (excluded): 0.467
+own-point pairs (49 boundary tasks): failed run: no edit-tool call on a repository file 5, failed run: own-point episodes missing 2, paired 40, resolved run: own-point episodes missing 2
+probe scores: 4361 decision points, 1149 runs, 16 variants
+probe fork 6    : mean within-task AUC 0.519 (range 0.36-0.66; 35 tasks); pooled AUC 0.42-0.69; leave-one-out task pass rate pooled AUC 0.966
+probe fork 10   : mean within-task AUC 0.567 (range 0.48-0.70; 24 tasks); pooled AUC 0.44-0.69; leave-one-out task pass rate pooled AUC 0.959
+probe fork 14   : mean within-task AUC 0.491 (range 0.33-0.60; 20 tasks); pooled AUC 0.40-0.65; leave-one-out task pass rate pooled AUC 0.942
+probe fork own  : mean within-task AUC 0.704 (range 0.59-0.81; 40 tasks); pooled AUC 0.55-0.70; leave-one-out task pass rate pooled AUC 0.968
+probe fork final: mean within-task AUC 0.783 (range 0.70-0.90; 40 tasks); pooled AUC 0.69-0.80; leave-one-out task pass rate pooled AUC 0.968
+D reweighted to each task's failure mix: 0.472 (pooled failed-run value by type empty 0.35, wrong 0.10; chosen empty share 0.49 vs uniform 0.42)
+swap 12B from 31B contexts res: n=17 runs  31B 0.67  12B 0.51  diff -0.16 [-0.35, +0.04]
+
+== v0.8.1 additions ==
+train, 20-min seed groups: 387 runs, resolve rate 0.357; between-task share 85% over 193 tasks with >= 2 runs
+train, 8-min seed groups: 429 runs, resolve rate 0.350; between-task share 81% over 193 tasks with >= 2 runs
+train, 20-min minus 8-min resolve rate, paired by task: +0.006 [-0.022, +0.032] over 193 tasks
+E1 pairs by (resolved run, failed run) time limit: 8/8 min 26, 8/20 min 9, 20/8 min 14
+own-point gap, pairs with same time limit: +0.48 [+0.24, +0.70] over 22 tasks
+own-point gap, pairs with mixed time limits: +0.44 [+0.17, +0.70] over 18 tasks
+non-reproduced runs (153), edits after the spent budget: all edits 51, no edit tool 4, no edits 67, some edits 31
